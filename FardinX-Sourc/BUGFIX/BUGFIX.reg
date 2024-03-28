@@ -1,0 +1,272 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Sysinternals\Process Explorer]
+"EulaAccepted"=dword:00000001
+"Windowplacement"=hex:2c,00,00,00,02,00,00,00,03,00,00,00,ff,ff,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,75,03,00,00,11,00,00,00,95,06,00,00,69,02,00,00
+"FindWindowplacement"=hex:2c,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,96,00,00,00,96,00,00,00,00,00,00,00,00,00,\
+  00,00
+"SysinfoWindowplacement"=hex:2c,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,\
+  00,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,28,00,00,00,28,00,00,00,2b,03,00,00,2b,\
+  02,00,00
+"PropWindowplacement"=hex:2c,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,28,00,00,00,28,00,00,00,00,00,00,00,00,00,\
+  00,00
+"DllPropWindowplacement"=hex:2c,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,28,00,00,00,28,00,00,00,00,00,00,00,00,\
+  00,00,00
+"UnicodeFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,00,00,00,00,00,4d,00,53,00,20,00,53,00,68,00,65,00,6c,00,6c,00,20,\
+  00,44,00,6c,00,67,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"Divider"=hex:53,1f,0e,15,16,62,ea,3f
+"SavedDivider"=hex:53,1f,0e,15,16,62,ea,3f
+"ProcessImageColumnWidth"=dword:00000105
+"ShowUnnamedHandles"=dword:00000001
+"ShowDllView"=dword:00000001
+"HandleSortColumn"=dword:00000000
+"HandleSortDirection"=dword:00000001
+"DllSortColumn"=dword:00000000
+"DllSortDirection"=dword:00000001
+"ProcessSortColumn"=dword:ffffffff
+"ProcessSortDirection"=dword:00000001
+"HighlightServices"=dword:00000001
+"HighlightOwnProcesses"=dword:00000001
+"HighlightRelocatedDlls"=dword:00000000
+"HighlightJobs"=dword:00000000
+"HighlightNewProc"=dword:00000001
+"HighlightDelProc"=dword:00000001
+"HighlightImmersive"=dword:00000001
+"HighlightProtected"=dword:00000000
+"HighlightPacked"=dword:00000001
+"HighlightNetProcess"=dword:00000000
+"HighlightSuspend"=dword:00000001
+"HighlightDuration"=dword:000003e8
+"ShowCpuFractions"=dword:00000001
+"ShowLowerpane"=dword:00000001
+"ShowAllUsers"=dword:00000001
+"ShowProcessTree"=dword:00000001
+"SymbolWarningShown"=dword:00000000
+"HideWhenMinimized"=dword:00000000
+"AlwaysOntop"=dword:00000000
+"OneInstance"=dword:00000001
+"NumColumnSets"=dword:00000000
+"ConfirmKill"=dword:00000001
+"RefreshRate"=dword:000003e8
+"PrcessColumnCount"=dword:0000000c
+"DllColumnCount"=dword:00000005
+"HandleColumnCount"=dword:00000002
+"DefaultProcPropPage"=dword:00000000
+"DefaultSysInfoPage"=dword:00000004
+"DefaultDllPropPage"=dword:00000000
+"DbgHelpPath"="C:\\Windows\\System32\\dbghelp.dll"
+"SymbolPath"=""
+"ColorPacked"=dword:00ff0080
+"ColorImmersive"=dword:00eaea00
+"ColorOwn"=dword:00ffd0d0
+"ColorServices"=dword:00d0d0ff
+"ColorRelocatedDlls"=dword:00a0ffff
+"ColorGraphBk"=dword:00f0f0f0
+"ColorJobs"=dword:00006cd0
+"ColorDelProc"=dword:004646ff
+"ColorNewProc"=dword:0046ff46
+"ColorNet"=dword:00a0ffff
+"ColorProtected"=dword:008000ff
+"ShowHeatmaps"=dword:00000001
+"ColorSuspend"=dword:00808080
+"StatusBarColumns"=dword:00003515
+"ShowAllCpus"=dword:00000000
+"ShowAllGpus"=dword:00000000
+"Opacity"=dword:00000064
+"GpuNodeUsageMask"=dword:00000001
+"GpuNodeUsageMask1"=dword:00000000
+"VerifySignatures"=dword:00000000
+"VirusTotalCheck"=dword:00000001
+"VirusTotalSubmitUnknown"=dword:00000000
+"ToolbarBands"=hex:06,01,00,00,00,00,00,00,00,00,00,00,4b,00,00,00,01,00,00,00,\
+  00,00,00,00,4b,00,00,00,02,00,00,00,00,00,00,00,4b,00,00,00,03,00,00,00,00,\
+  00,00,00,4b,00,00,00,04,00,00,00,00,00,00,00,40,00,00,00,05,00,00,00,00,00,\
+  00,00,50,00,00,00,06,00,00,00,00,00,00,00,93,04,00,00,07,00,00,00,00,00,00,\
+  00
+"UseGoogle"=dword:00000000
+"ShowNewProcesses"=dword:00000000
+"TrayCPUHistory"=dword:00000001
+"ShowIoTray"=dword:00000000
+"ShowNetTray"=dword:00000000
+"ShowDiskTray"=dword:00000000
+"ShowPhysTray"=dword:00000000
+"ShowCommitTray"=dword:00000000
+"ShowGpuTray"=dword:00000000
+"FormatIoBytes"=dword:00000001
+"StackWindowPlacement"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00
+"ETWstandardUserWarning"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Sysinternals\Process Explorer\DllColumnMap]
+"0"=dword:0000001a
+"1"=dword:0000002a
+"2"=dword:00000409
+"3"=dword:00000457
+"4"=dword:00000686
+
+[HKEY_CURRENT_USER\SOFTWARE\Sysinternals\Process Explorer\DllColumns]
+"0"=dword:0000006e
+"1"=dword:000000b4
+"2"=dword:0000008c
+"3"=dword:0000012c
+"4"=dword:00000064
+
+[HKEY_CURRENT_USER\SOFTWARE\Sysinternals\Process Explorer\HandleColumnMap]
+"0"=dword:00000015
+"1"=dword:00000016
+
+[HKEY_CURRENT_USER\SOFTWARE\Sysinternals\Process Explorer\HandleColumns]
+"0"=dword:00000064
+"1"=dword:000001c2
+
+[HKEY_CURRENT_USER\SOFTWARE\Sysinternals\Process Explorer\ProcessColumnMap]
+"0"=dword:00000003
+"1"=dword:0000041f
+"2"=dword:00000672
+"3"=dword:000004b0
+"4"=dword:00000424
+"5"=dword:00000427
+"6"=dword:00000004
+"7"=dword:00000005
+"8"=dword:0000053c
+"9"=dword:00000429
+"10"=dword:00000409
+"11"=dword:00000026
+"12"=dword:00000004
+"13"=dword:00000672
+"14"=dword:00000424
+"15"=dword:00000427
+"16"=dword:00000686
+"17"=dword:00000675
+"18"=dword:00000675
+"19"=dword:00000675
+
+[HKEY_CURRENT_USER\SOFTWARE\Sysinternals\Process Explorer\ProcessColumns]
+"0"=dword:00000101
+"1"=dword:00000022
+"2"=dword:00000024
+"3"=dword:00000046
+"4"=dword:00000042
+"5"=dword:0000003f
+"6"=dword:00000028
+"7"=dword:00000027
+"8"=dword:00000030
+"9"=dword:00000022
+"10"=dword:0000003f
+"11"=dword:00000066
+"12"=dword:000000c8
+"13"=dword:0000001f
+"14"=dword:00000046
+"15"=dword:00000046
+"16"=dword:0000002c
+
+[HKEY_CURRENT_USER\SOFTWARE\Sysinternals\Process Explorer\VirusTotal]
+"VirusTotalTermsAccepted"=dword:00000001
+
+
+
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e967-e325-11ce-bfc1-08002be10318}]
+"LowerFilters"=-
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e96c-e325-11ce-bfc1-08002be10318}]
+"UpperFilters"=-
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{6bdd1fc6-810f-11d0-bec7-08002be2092f}]
+"UpperFilters"=-
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{71a27cdd-812a-11d0-bec7-08002be2092f}]
+"LowerFilters"=-
+"UpperFilters"=-
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{ca3e7ab9-b4c3-4ae6-8251-579ef933890f}]
+"UpperFilters"=-
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AudioSrv]
+"DependOnService"=hex(7):52,00,70,00,63,00,53,00,73,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dhcp]
+"DependOnService"=hex(7):4e,00,53,00,49,00,00,00,41,00,66,00,64,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache]
+"DependOnService"=hex(7):6e,00,73,00,69,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\fvevol]
+"ErrorControl"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hidserv]
+"DependOnService"=-
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\rdyboost]
+"DependOnService"=-
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform]
+"InactivityShutdownDelay"=dword:ffffffff
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Avalon.Graphics]
+"MaxMultisampleType"=dword:00000004
+"DisableHWAcceleration"=dword:00000000
+"EnableDebugControl"=dword:00000001
+"UseDX9LText"=dword:00000001
+"BreakOnUnexpectedErrors"=dword:00000001
+"RPCAvalon"=dword:00000001
+"RecordAvalonFile"=dword:00000000
+"UseReferenceRasterizer"=dword:00000001
+"SkipDriverDateCheck"=dword:00000000
+"SkipDriverCheck"=dword:00000000
+ 
+
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Avalon.Graphics\DISPLAY1]
+"PixelStructure"=dword:00000001
+"GammaLevel"=dword:00000898
+"ClearTypeLevel"=dword:00000064
+"EnhancedContrastLevel"=dword:00000190
+"GrayscaleEnhancedContrastLevel"=dword:00000190
+"TextContrastLevel"=dword:00000002
+
+ 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler]
+"EnablePreemption"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Watchdog\Logging]
+"BreakOnError"=dword:00000001
+"BreakOnAssertion "=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"TdrLevel"=dword:00000003
+"TdrDelay"=dword:00000078
+"TdrDdiDelay"=dword:0000003c
+"TdrTestMode"=dword:00000000
+"TdrDebugMode"=dword:00000002
+"TdrLimitTime"=dword:00000078
+"TdrLimitCount"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\BasicDisplay]
+"BasicDisplayUserNotified"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\DCI]
+"Timeout"=dword:00000078
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\TdrWatch]
+"TDR_RECOVERY"=dword:00000001
+
+
+ 
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\StorageSense]
+
+[-HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags]
