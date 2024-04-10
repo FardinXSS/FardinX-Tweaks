@@ -5,7 +5,7 @@ too much to add an remove fardinx will be dealyed
 
 
 
-
+https://discord.gg/WY9FMyTW
 
 
 
