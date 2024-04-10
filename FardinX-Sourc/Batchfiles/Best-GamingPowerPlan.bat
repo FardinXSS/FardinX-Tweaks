@@ -5,4 +5,4 @@ powercfg /setactive c9d62faa-c1d7-4ba2-b5ad-2582b27c5952
 
 powercfg /hibernate off
 
-powercfg -setacvalueindex scheme_current sub_processor 5d76a2ca-e8c0-402f-a133-2158492d58ad 100
+powercfg -setacvalueindex scheme_current sub_processor 5d76a2ca-e8c0-402f-a133-2158492d58ad 1
