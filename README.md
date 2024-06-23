@@ -4,9 +4,7 @@ has lots tweaks like registry has amd nvida intel memory power cpu gpu clean deb
 too much to add an remove fardinx will be dealyed
 
 
-
-https://discord.gg/WY9FMyTW
-
+https://discord.gg/tweaks4free
 
 
 
