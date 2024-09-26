@@ -1,0 +1,207 @@
+:Mouse
+
+; mouse accessibility tweaks 
+
+[HKEY_USERS\.DEFAULT\Control Panel\Accessibility\MouseKeys]
+"Flags"="0"
+"MaximumSpeed"="0"
+"TimeToMaximumSpeed"="0"
+"MouseSpeed"="0"
+"MouseInputDelay"="Low Input Delay"
+"MouseLatency"="Low Latency"
+"MaximumMouseSpeed"="0"
+"LowMouseEingangsLatency"="Low Latency"
+"MouseSensorLowLatency"="Ultra Low Latency"
+"UltraLowLatencyMouseEingang"="Ultra Low Latency"
+
+
+
+; mouse cursor speed fix 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorSpeed]
+"CursorSpeed"=dword:00000000
+
+
+
+
+
+; mouse data quene size
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mouclass\Parameters]
+"MouseDataQueueSize"=dword:00000016
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mouhid\Parameters]
+"MouseDataQueueSize"=dword:00000016
+
+
+
+
+; fix mouse clicks
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"ClickSpeed"="0"
+"DoubleClickHeight"="4"
+"DoubleClickSpeed"="500"
+"DoubleClickWidth"="4"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+"SnapToDefaultButton"="0"
+"SwapMouseButtons"="0"
+"MouseThreshold"="0"
+"SpeedThreshold"="0"
+"AccelerationSpeed"="0"
+"SpeedMouse"="0"
+"NoAnyAcceleration"="0"
+"TcpMaxDataRetransmissions"=dword:000000003
+"SackOpts"=dword:000000001
+"EnablePMTUDiscovery"=dword:000000009
+"EnablePMTUBHDetect"=dword:000000001
+"DoubleClickHeight2"="0,8"
+"DoubleClickSpeed2"="0,47"
+"DoubleClickWidth2"="0,4"
+"INPUT_MOUSE"=dword:00000000
+"EINGABE_TASTATUR"=dword:00000001
+"INPUT_HARDWARE"=dword:00000002
+"XBUTTON2"="0x0002"
+"XBUTTON1"="0x0001"
+
+
+; mouse detection tweak 
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"EnablePMTUDiscovery"=dword:000000009
+"EnablePMTUBHDetect"=dword:000000001
+
+
+
+; mouse network input tweak
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"TcpMaxDataRetransmissions"=dword:000000003
+"SackOpts"=dword:000000001
+
+
+
+; fix mouse audio delay
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"ActiveWindowTracking"=dword:00000000
+"Beep"="No"
+"ExtendedSounds"="No"
+
+
+; fix mouse acceleration 
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseHoverHeight"="4"
+"MouseHoverTime"="400"
+"MouseHoverWidth"="4"
+"MouseSensitivity"="10"
+"MouseSpeed"="0"
+"MouseTrails"="0"
+"MouseCP"="55"
+"MouseCL"="55"
+"Mousetrack"="908"
+"Mousecrib"="10"
+"Mousecontrolusb"="1"
+"MouseTK"="810"
+"FOV"="100"
+"MouseGrab"="908"
+"MouseStickOn"="10"
+"DockTargetMouseDragOutWidth"="1"
+"DockTargetMouseSideMoveWidth"="2"
+"DockTargetMouseWidth"="3"
+"DockTargetPenDragOutWidth"="3"
+"DockTargetPenSideMoveWidth"="1"
+"DockTargetPenWidth"="5"
+
+
+
+; honor mouse acceleration 
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\PrecisionTouchPad]
+"HonorMouseAccelSetting"=dword:00000001
+
+
+
+
+; mouse smooth curve
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"SmoothMouseXCurve"=hex:00,00,00,00,00,00,00,00,c0,cc,0c,00,00,00,00,00,80,99,\
+  19,00,00,00,00,00,40,66,26,00,00,00,00,00,00,33,33,00,00,00,00,00
+"SmoothMouseYCurve"=hex:00,00,00,00,00,00,00,00,00,00,38,00,00,00,00,00,00,00,\
+  70,00,00,00,00,00,00,00,a8,00,00,00,00,00,00,00,e0,00,00,00,00,00
+
+
+; mouse priority Class
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mouclass\Parameters]
+"CpuPriorityClass"=dword:00000004
+"IoPriority"=dword:00000004
+
+
+; HN_nice
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"F1Shumaker"=dword:00000001
+
+
+; mouse timer resolution 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mouclass\Parameters]
+"MouseSetTimerResolution"="0.001"
+
+
+; Defining Cursor Magnestism
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorSpeed]
+"CursorSensitivity"=dword:00002710
+"CursorUpdateInterval"=dword:00000001
+"IRRemoteNavigationDelta"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorMagnetism]
+"AttractionRectInsetInDIPS"=dword:00000005
+"DistanceThresholdInDIPS"=dword:00000028
+"MagnetismDelayInMilliseconds"=dword:00000032
+"MagnetismUpdateIntervalInMilliseconds"=dword:00000010
+"VelocityInDIPSPerSecond"=dword:00000168
+
+[HKEY_CURRENT_USER\Control Panel\Cursors]
+"CursorDeadzoneJumpingSetting"=dword:00000000
+"ContactVisualization"=dword:00000000
+"GestureVisualization"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableCursorSuppression"=dword:00000000
+
+
+
+
+; mouse mouse axis tweaks
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"AreaMouseAxisX"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"AreaMouseAxisY"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+
+; mouse port tweaks 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mouclass\Parameters]
+"WppRecorder_TraceGuid"="{fc8df8fd-d105-40a9-af75-2eec294adf8d}"
+"ConnectMultiplePorts"=dword:00000000
+"MaximumPortsServiced"=dword:00000003
+"PointerDeviceBaseName"="PointerClass"
+"SendOutputToAllPorts"=dword:00000000
+"MaximumPortsServiced"=dword:00000001
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mouhid\Parameters]
+"WppRecorder_TraceGuid"="{fc8df8fd-d105-40a9-af75-2eec294adf8d}"
+"ConnectMultiplePorts"=dword:00000000
+"MaximumPortsServiced"=dword:00000003
+"PointerDeviceBaseName"="PointerClass"
+"SendOutputToAllPorts"=dword:00000000
+"MaximumPortsServiced"=dword:00000001
