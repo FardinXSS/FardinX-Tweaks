@@ -1,0 +1,88 @@
+
+; Flip buffer mode
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"FlipBufferMode"=dword:00000000
+"FlipPolicy"=dword:00000000
+"MaximumFrameLatency"=dword:00000001
+
+
+
+
+; Turn_OFF_optimizations_for_windowed_games
+
+[HKEY_CURRENT_USER\Software\Microsoft\DirectX\GraphicsSettings]
+"SwapEffectUpgradeCache"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\DirectX\UserGpuPreferences]
+"DirectXUserGlobalSettings"="SwapEffectUpgradeEnable=0;"
+
+; Disable GPU power menagement 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"PowerSavingTweaks"=dword:00000000
+"EnableRuntimePowerManagement"=dword:00000000
+"RmClkPowerOffDramPllWhenUnused"=dword:00000000
+
+
+; GPU performance mode
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"EnablePerformanceMode"=dword:00000001
+"EnableMidBufferPreemptionForHighTdrTimeout"=dword:00000000
+"PerfAnalyzeMidBufferPreemption"=dword:00000000
+
+
+; Monitor intolarence 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"MonitorRefreshLatencyTolerance"=dword:00000001
+"DefaultD3TransitionLatencyActivelyUsed"=dword:00000001
+"DefaultD3TransitionLatencyIdleNoContext"=dword:00000001
+"DefaultLatencyToleranceIdle0"=dword:00000001
+"DefaultLatencyToleranceNoContext"=dword:00000001
+
+; Render Tweaks
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"Disable_OverlayDSQualityEnhancement"=dword:00000001
+"DisableGDIAcceleration"=dword:00000000
+"DisableKmRender"=dword:00000000
+"DisableKmRenderBoost"=dword:00100111
+
+
+
+
+
+
+
+
+
+
+
+
+
+; GPU latency tweaks
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"DpiMapIommuContiguous"=dword:00000001
+"UseGpuTimer"=dword:00000001
+"PrimaryPushBufferSize"=dword:00000001
+"F1TransitionLatency"=dword:00000001
+"D3PCLatency"=dword:00000000
+"RMDeepL1EntryLatencyUsec"=dword:00000001
+"PciLatencyTimerControl"=dword:00000014
+
+
+
+; Time-Dependent Redirection
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"TdrLevel"=dword:00000000
+"TdrDelay"=dword:00000000
+"TdrDebugMode"=dword:00000000
+"TdrDdiDelay"=dword:00000000
+"TdrDodPresentDelay"=dword:00000000
+"TdrDodVSyncDelay"=dword:00000000
+"TdrLimitCount"=dword:00000000
+"TdrLimitTime"=dword:00000000
