@@ -1,0 +1,66 @@
+:Keyboard
+
+; keyboard clicks fix
+
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="0"
+"KeyboardDelay"="0"
+"KeyboardSpeed"="0"
+
+; keyboard delay fix
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"TypematicDelay"=dword:00000001
+"TypematicRate"=dword:00000001
+"InitialKeyboardIndicators"="2"
+
+; CrashOnCtrlScroll
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters]
+"CrashOnCtrlScroll"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdhid\Parameters]
+"CrashOnCtrlScroll"=dword:00000001
+
+
+
+; keyboard accessibility
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"AutoRepeatDelay"="0"
+"AutoRepeatRate"="0"
+"BounceTime"="0"
+"DelayBeforeAcceptance"="0"
+"Flags"="0"
+"Last BounceKey Setting"=dword:00000000
+"Last Valid Delay"=dword:00000000
+"Last Valid Repeat"=dword:00000000
+"Last Valid Wait"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Preference]
+"On"="1"
+
+;keyboard priority Class
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdclass\Parameters]
+"CpuPriorityClass"=dword:00000004
+"IoPriority"=dword:00000004
+
+
+
+; keyboard timer resolution
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdclass\Parameters]
+"KeyboardSetTimerResolution"="0.001"
+
+
+
+; keyboard data quene size
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdclass]
+"KeyboardDataQueueSize"=dword:00000016
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdhid\Parameters]
+"KeyboardDataQueueSize"=dword:00000016
+
+
