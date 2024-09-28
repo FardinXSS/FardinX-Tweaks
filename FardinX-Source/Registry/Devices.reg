@@ -363,3 +363,48 @@
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\VIDEO\INT3470]
 @="devcon deaktiviert"
 
+
+
+
+;Audio Latency
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\BackgroundAudioPolicy]
+"AllowHeadlessExecution"=dword:00000001
+"AllowMultipleBackgroundTasks"=dword:00000001
+"InactivityTimeoutMs"=dword:FFFFFFFF
+
+
+; improve bluetooth latency
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters]
+"PowerManagementEnabled"=dword:00000000
+"InquiryDuration"=dword:0000ffff
+"LinkSupervisionTimeout"=dword:0000000a
+"PageTimeout"=dword:00000001
+"DiscoverableTimeout"=dword:0000012c
+"AllowInteractiveConnect"=dword:00000001
+"ConnectionLatency"=dword:0000000a
+"HighDutyCycleScanWindow"=dword:00004000
+"HighDutyCycleScanInterval"=dword:00004001
+"LowDutyCycleScanWindow"=dword:00002000
+"LowDutyCycleScanInterval"=dword:00002001
+
+; Default_enable_Bluetooth_Swift_Pair
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\Bluetooth\AllowPromptedProximalConnections]
+"value"=dword:00000001
+
+
+; Advanced_Bluetooth_devices_discovery
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Bluetooth]
+"AdvancedDiscoveryMode"=dword:00000001
+
+
+; Optimize Bluetooth Devices
+
+; Disable PowerManagement
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTHPORT\Parameters]
+"PowerManagementEnabled"=dword:00000000
+"InquiryDuration"=dword:0000ffff
+
+
+
