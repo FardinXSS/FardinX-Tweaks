@@ -1,6 +1,78 @@
+Windows Registry Editor Version 5.00
+
+
 :Power saving
 
 
+
+
+; Disable CPU Idle State
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Throttle]
+"PerfEnablePackageIdle"=dword:00000000
+
+
+; Disable Device Idle State
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\Policy\Settings\Misc]
+"DeviceIdlePolicy"=dword:00000000
+
+
+
+
+; Disable Network Powersaving mode
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WcmSvc\GroupPolicy]
+"fDisablePowerManagement"=dword:00000001
+
+
+
+
+
+; Disable USB Power Saving
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\USB\AutomaticSurpriseRemoval]
+"AttemptRecoveryFromUsbPowerDrain"=dword:00000000
+
+
+
+
+
+
+
+; Disable Sleep State
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\Policy\Settings\Sleep]
+"AwayMode"=dword:00000000
+
+
+
+
+
+; Disable PDC Powersaving
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PDC\Activators\28\VetoPolicy]
+"EA:PowerStateDischarging"=dword:00000000
+
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PDC\Activators\Default\VetoPolicy]
+"EA:EnergySaverEngaged"=dword:00000000
+
+
+
+
+; Timer resolution tweaks
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\EnergyDriver]
+"DynamicTick"=dword:00000000
+"EnergyDriverPolicy"=dword:00000001
+"EnergyDriverPolicyVideo"=dword:00000001
+"TimerBResolution"=dword:00000001
+"TimerMinResolution"=dword:00000001
+"TimerReliability"=dword:00000001
 
 
 
@@ -46,9 +118,11 @@
 ; Stop Tolerating high DPC ISP Latencies
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
-"ExitLatency"=dword:00000001
-"DisableVsyncLatencyUpdate"=dword:00000001
+"CsEnabled"=dword:00000000
 "DisableSensorWatchdog"=dword:00000001
+"DisableVsyncLatencyUpdate"=dword:00000001
+"EventProcessorEnabled"=dword:00000000
+"ExitLatency"=dword:00000001
 "ExitLatencyCheckEnabled"=dword:00000001
 "Latency"=dword:00000001
 "LatencyToleranceDefault"=dword:00000001
@@ -57,53 +131,53 @@
 "LatencyTolerancePerfOverride"=dword:00000001
 "LatencyToleranceScreenOffIR"=dword:00000001
 "LatencyToleranceVSyncEnabled"=dword:000000001
-"RtlCapabilityCheckLatency"=dword:00000001
+"LatencyToleranceVSyncEnabled"=dword:00000001
+"LOWLATENCY"=dword:00000001
 "MfBufferingThreshold"=dword:00000000
-"CsEnabled"=dword:00000000
 "QosManagesIdleProcessors"=dword:00000000
+"RtlCapabilityCheckLatency"=dword:00000001
 "SleepReliabilityDetailedDiagnostics"=dword:00000000
-"EventProcessorEnabled"=dword:00000000
+
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power]
-"RmGpsPsEnablePerCpuCoreDpc"=dword:00000001
-"PowerSavingTweaks"=dword:00000000
+"D3PCLatency"=dword:00000000
+"DefaultD3TransitionLatencyActivelyUsed"=dword:00000001
+"DefaultD3TransitionLatencyIdleLongTime"=dword:00000001
+"DefaultD3TransitionLatencyIdleMonitorOff"=dword:00000001
+"DefaultD3TransitionLatencyIdleNoContext"=dword:00000001
+"DefaultD3TransitionLatencyIdleShortTime"=dword:00000001
+"DefaultD3TransitionLatencyIdleVeryLongTime"=dword:00000001
+"DefaultLatencyToleranceIdle0"=dword:00000001
+"DefaultLatencyToleranceIdle0MonitorOff"=dword:00000001
+"DefaultLatencyToleranceIdle1"=dword:00000001
+"DefaultLatencyToleranceIdle1MonitorOff"=dword:00000001
+"DefaultLatencyToleranceMemory"=dword:00000001
+"DefaultLatencyToleranceNoContext"=dword:00000001
+"DefaultLatencyToleranceNoContextMonitorOff"=dword:00000001
+"DefaultLatencyToleranceOther"=dword:00000001
+"DefaultLatencyToleranceTimerPeriod"=dword:00000001
+"DefaultMemoryRefreshLatencyToleranceActivelyUsed"=dword:00000001
+"DefaultMemoryRefreshLatencyToleranceMonitorOff"=dword:00000001
+"DefaultMemoryRefreshLatencyToleranceNoContext"=dword:00000001
 "DisableWriteCombining"=dword:00000001
 "EnableRuntimePowerManagement"=dword:00000000
-"PrimaryPushBufferSize"=dword:00000001
 "FlTransitionLatency"=dword:00000000
-"D3PCLatency"=dword:00000000
-"RMDeepLlEntryLatencyUsec"=dword:00000000
-"PciLatencyTimerControl"=dword:00000001
-"Node3DLowLatency"=dword:00000001
-"LOWLATENCY"=dword:00000001
-"RmDisableRegistryCaching"=dword:00000001
-"RMDisablePostL2Compression"=dword:00000001
-"DefaultMemoryRefreshLatencyToleranceNoContext"=dword:00000001
-"DefaultMemoryRefreshLatencyToleranceMonitorOff"=dword:00000001
-"DefaultMemoryRefreshLatencyToleranceActivelyUsed"=dword:00000001
-"DefaultD3TransitionLatencyIdleShortTime"=dword:00000001
-"DefaultD3TransitionLatencyIdleNoContext"=dword:00000001
-"DefaultD3TransitionLatencyIdleMonitorOff"=dword:00000001
-"DefaultLatencyToleranceTimerPeriod"=dword:00000001
-"DefaultLatencyToleranceOther"=dword:00000001
-"DefaultLatencyToleranceNoContextMonitorOff"=dword:00000001
-"DefaultLatencyToleranceNoContext"=dword:00000001
-"DefaultLatencyToleranceMemory"=dword:00000001
-"DefaultLatencyToleranceIdle1MonitorOff"=dword:00000001
-"DefaultLatencyToleranceIdle1"=dword:00000001
-"DefaultLatencyToleranceIdle0MonitorOff"=dword:00000001
-"DefaultLatencyToleranceIdle0"=dword:00000001
-"DefaultD3TransitionLatencyIdleVeryLongTime"=dword:00000001
-"DefaultD3TransitionLatencyIdleLongTime"=dword:00000001
-"DefaultD3TransitionLatencyActivelyUsed"=dword:00000001
 "Latency"=dword:00000001
-"DefaultD3TransitionLatencyActivelyUsed"=dword:00000001
-"TransitionLatency"=dword:00000001
-"MonitorRefreshLatencyTolerance"=dword:00000001
-"MonitorLatencyTolerance"=dword:00000001
-"MiracastPerfTrackGraphicsLatency"=dword:00000001
+"LOWLATENCY"=dword:00000001
 "MaxIAverageGraphicsLatencyInOneBucket"=dword:00000001
-
+"MiracastPerfTrackGraphicsLatency"=dword:00000001
+"MonitorLatencyTolerance"=dword:00000001
+"MonitorRefreshLatencyTolerance"=dword:00000001
+"Node3DLowLatency"=dword:00000001
+"PciLatencyTimerControl"=dword:00000001
+"PciLatencyTimerControl"=dword:00000014
+"PowerSavingTweaks"=dword:00000000
+"PrimaryPushBufferSize"=dword:00000001
+"RMDeepLlEntryLatencyUsec"=dword:00000000
+"RMDisablePostL2Compression"=dword:00000001
+"RmDisableRegistryCaching"=dword:00000001
+"RmGpsPsEnablePerCpuCoreDpc"=dword:00000001
+"TransitionLatency"=dword:00000001
 
 
 ; USBPollRate
