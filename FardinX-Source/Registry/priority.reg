@@ -7441,3 +7441,629 @@
 "DesktopHeapLogging"=dword:00000000
 "DwmInputUsesIoCompletionPort"=dword:00000000
 "EnableDwmInputProcessing"=dword:00000000
+
+
+
+
+; BackgroundModel Tweaks
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel]
+"EnableBackgroundAccessManagerToast"=dword:00000001
+"WaitForNewSessionComplete"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\AppContractPolicy]
+"PauseInLowPower"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\BackgroundAudioPolicy]
+"AllowHeadlessExecution"=dword:00000001
+"AllowMultipleBackgroundTasks"=dword:00000001
+"InactivityTimeoutMs"=dword:ffffffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\BackgroundTransferPolicy]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\BackgroundTransferPolicy\Microsoft.Windows.Cortana_cw5n1h2txyewy!CortanaUI]
+"AllowHighCostBackgroundWork"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EmptyHostDisallowList]
+"microsoft.windowscommunicationsapps_8wekyb3d8bbwe"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\1000]
+"ResourceSetType"="LongRunningBluetooth"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\1001]
+"ResourceSetType"="ShortRunningBluetooth"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\1002]
+"ResourceSetType"="ShortRunningBluetooth"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\1003]
+"ResourceSetType"="ShortRunningBluetooth"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\1004]
+"ResourceSetType"="ShortRunningBluetooth"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\1005]
+"ResourceSetType"="ShortRunningBluetooth"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\1006]
+"ResourceSetType"="LongRunningBluetooth"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\106]
+"SupportedActivationTypesMask"=dword:00000007
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\1100]
+"PolicyFlags"=dword:00000010
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\111]
+"BatterySaverOverride"=dword:00000000
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\125]
+"BatterySaverOverride"=dword:00000000
+"BiCrmActivityId"=dword:00000003
+"CLSID"="{20E6D937-F6A7-4C7F-8E69-7E0AF81795FB}"
+"PrioritizedBiCrmActivityId"=dword:00000000
+"ResourceSetType"="BackgroundTransfer"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\137]
+"BatterySaverOverride"=dword:00000000
+"PolicyFlags"=dword:0000000f
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="ChatMessageNotification"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\144]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="CallingEvent"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\145]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="CallingEvent"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\146]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="CallingEvent"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\147]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="CallingEventHighPriority"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\148]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="CallingEventHighPriority"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\150]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="GeofenceTask"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\152]
+"BiCrmActivityId"=dword:00000004
+"PrioritizedBiCrmActivityId"=dword:00000006
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\157]
+"BatterySaverOverride"=dword:00000000
+"ResourceSetType"="ChatMessageNotification"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\158]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="CallingEvent"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\1600]
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="CortanaSpeechBackground"
+"WallClockLimitMs"=dword:000395f8
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\161]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="CallingEvent"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\162]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="CallingEvent"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\164]
+"PolicyFlags"=dword:00000111
+"ResourceSetType"="HighPriorityBackgroundAgent"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\166]
+"BatterySaverOverride"=dword:00000000
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\170]
+"BatterySaverOverride"=dword:00000000
+"BiCrmActivityId"=dword:00000001
+"CLSID"="{20E6D937-F6A7-4C7F-8E69-7E0AF81795FB}"
+"PrioritizedBiCrmActivityId"=dword:00000000
+"ResourceSetType"="BackgroundTransfer"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\171]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="CallingEventHighPriority"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\172]
+"BatterySaverOverride"=dword:00000000
+"PolicyFlags"=dword:00000002
+"WallClockLimitMs"=dword:00000000
+"BiTriggerSettingFlags"=hex(b):01,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\198]
+"BatterySaverOverride"=dword:00000000
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\199]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="PreinstallTask"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\200]
+"BiCrmActivityId"=dword:00000004
+"PrioritizedBiCrmActivityId"=dword:00000006
+"SupportedActivationTypesMask"=dword:00000007
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\201]
+"BiCrmActivityId"=dword:00000005
+"PrioritizedBiCrmActivityId"=dword:00000006
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="ResourceIntensive"
+"WallClockLimitMs"=dword:00091438
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\2100]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{A8976A00-1FDE-4B5F-A6F0-FBF459DD32ED}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000011
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="ApplicationService"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\2101]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{A8976A00-1FDE-4B5F-A6F0-FBF459DD32ED}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000011
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="ApplicationService"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\300]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="PushTriggerTask"
+"SupportedActivationTypesMask"=dword:00000007
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\301]
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="DefaultModernBackgroundTask"
+"SupportedActivationTypesMask"=dword:00000007
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\302]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="ForegroundTaskCompletion"
+"SupportedActivationTypesMask"=dword:00000007
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\402]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\500]
+"ResourceSetType"="LongRunningBluetooth"
+"WallClockLimitMs"=dword:0001d4c0
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\501]
+"ResourceSetType"="LongRunningBluetooth"
+"WallClockLimitMs"=dword:0001d4c0
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\600]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="GeofenceTask"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\701]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="DefaultModernBackgroundTask"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\702]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{BD24FF86-6723-47B6-9C73-DA362CA6418F}"
+"PolicyFlags"=dword:00000003
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="BackgroundAudioPlayer"
+"ShellReadyBufferingExempt"=dword:00000001
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\703]
+"CLSID"="{CACEB1A2-F424-489B-8ED5-3614926A8512}"
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="PreinstallTask"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\704]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="PreinstallTask"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\715]
+"BatterySaverOverride"=dword:00000000
+"PolicyFlags"=dword:00000017
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="IoTStartupTask"
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\716]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{A8976A00-1FDE-4B5F-A6F0-FBF459DD32ED}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000011
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="ApplicationService"
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\717]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{A8976A00-1FDE-4B5F-A6F0-FBF459DD32ED}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000013
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="ApplicationService"
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\718]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{25dfe23c-a049-403d-9c45-6c574d49dcf6}"
+"PolicyFlags"=dword:00000015
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\723]
+"PolicyFlags"=dword:00000011
+"ResourceSetType"="ApplicationServiceRemote"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\724]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{A8976A00-1FDE-4B5F-A6F0-FBF459DD32ED}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000011
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="ApplicationService"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\725]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{A8976A00-1FDE-4B5F-A6F0-FBF459DD32ED}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000011
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="ApplicationService"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\726]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{A8976A00-1FDE-4B5F-A6F0-FBF459DD32ED}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000011
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="ApplicationService"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\727]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="GenericExtendedExecution"
+"WallClockLimitMs"=dword:00091438
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\728]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{A8976A00-1FDE-4B5F-A6F0-FBF459DD32ED}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000011
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="ApplicationService"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\729]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000015
+"ResourceSetType"="ApplicationService"
+"ShellReadyBufferingExempt"=dword:00000001
+"WallClockLimitMs"=dword:0002ab98
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\730]
+"BatterySaverOverride"=dword:00000000
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000017
+"ResourceSetType"="ApplicationServiceHighPriority"
+"ShellReadyBufferingExempt"=dword:00000001
+"WallClockLimitMs"=dword:0002ab98
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\731]
+"BatterySaverOverride"=dword:00000000
+"PolicyFlags"=dword:00000011
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\732]
+"BatterySaverOverride"=dword:00000000
+"PolicyFlags"=dword:00000011
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\800]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="Vpn"
+"ShellReadyBufferingExempt"=dword:00000001
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:00015f90
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\900]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{CCF75159-F7DA-4763-B10C-7A13F92DF226}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:0000000b
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:0000d6d8
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\901]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{CCF75159-F7DA-4763-B10C-7A13F92DF226}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:0000000b
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:0000d6d8
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\902]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{CCF75159-F7DA-4763-B10C-7A13F92DF226}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:0000000b
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:0000d6d8
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\903]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{CCF75159-F7DA-4763-B10C-7A13F92DF226}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:0000000b
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:0000d6d8
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\904]
+"BatterySaverOverride"=dword:00000000
+"CLSID"="{CCF75159-F7DA-4763-B10C-7A13F92DF226}"
+"ExecutionDisabledOverride"=dword:00000001
+"PolicyFlags"=dword:00000001
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000000
+"TimeCritical"=dword:00000000
+"WallClockLimitMs"=dword:0000d6d8
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\92]
+"BatterySaverOverride"=dword:00000000
+"BiCrmActivityId"=dword:00000002
+"CLSID"="{20E6D937-F6A7-4C7F-8E69-7E0AF81795FB}"
+"PrioritizedBiCrmActivityId"=dword:00000000
+"ResourceSetType"="BackgroundTransfer"
+"WallClockLimitMs"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\93]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="OemBackgroundAgent"
+"TimeCritical"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\96]
+"CLSID"="{6BA8349F-FDF4-4246-A724-32C943AED24F}"
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+"ResourceSetType"="BackgroundTaskCompletion"
+"WallClockLimitMs"=dword:00091438
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\EventSettings\98]
+"PolicyFlags"=dword:00000001
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+"ResourceSetType"="MediaProcessing"
+"WallClockLimitMs"=dword:00091438
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\HighPriorityResources]
+"BackgroundAudioPlayer"=dword:00000002
+"DefaultPPLE"=dword:00000001
+"VoipActiveCallBackground"=dword:00000005
+"VoipActiveCallBackgroundPriority"=dword:00000007
+"VoipActiveCallForeground"=dword:00000006
+"VoipForegroundWorker"=dword:00000004
+"VoipWorker"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\150]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\201]
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\300]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\600]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\701]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\702]
+"BatterySaverOverride"=dword:00000000
+"PolicyFlags"=dword:00000002
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\703]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\704]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\718]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\800]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\92]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000001
+"RescheduleOnCancel"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\93]
+"BatterySaverOverride"=dword:00000000
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\LegacyEventSettings\96]
+"RescheduleOnAbort"=dword:00000000
+"RescheduleOnCancel"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.AAD.BrokerPlugin_8wekyb3d8bbwe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.AAD.BrokerPlugin_8wekyb3d8bbwe\SessionCompleteBufferExempt]
+"717"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\SessionCompleteBufferExempt]
+"717"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.CloudExperienceHost_8wekyb3d8bbwe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.CloudExperienceHost_8wekyb3d8bbwe\SessionCompleteBufferExempt]
+"717"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\SessionCompleteBufferExempt]
+"717"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\PackageSettings\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\SessionCompleteBufferExempt]
+"1499"=dword:00000001
+"199"=dword:00000001
+"202"=dword:00000001
+"703"=dword:00000001
+"716"=dword:00000001
+"92"=dword:00000001
+"97"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\Policy]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\BackgroundModel\SpecialResources]
+"Microsoft.Cortana_8wekyb3d8bbwe"=dword:00000640
+"Microsoft.Windows.Cortana_cw5n1h2txyewy"=dword:00000640
+
+
+
