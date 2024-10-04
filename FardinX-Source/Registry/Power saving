@@ -1,6 +1,39 @@
 :Power saving
 
 
+
+
+
+; Disable Power Throttling
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001
+
+
+; Disable Power Telemetry
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\EnergyEstimation\TaggedEnergy]
+"DisableTaggedEnergyLogging"=dword:00000001
+"TelemetryMaxApplication"=dword:00000000
+"TelemetryMaxTagPerApplication"=dword:00000000
+
+
+
+
+; Disable EnergyEstimation
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"EnergyEstimationDisabled"=dword:00000001
+"EnergyEstimationEnabled"=dword:00000000
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\EnergyEstimation\TaggedEnergy]
+"EnergyEstimationEnabled"=dword:00000000
+
+
+
+
+
 ; LatencyDPC
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Video\{DEB039CC-B704-4F53-B43E-9DD4432FA2E9}\0000]
@@ -227,6 +260,18 @@
   00,00,00,00,00,00,00,00,00,00,00,2c,01,00,00,32,32,03,03,04,00,00,00,04,00,\
   00,00,00,00,00,00,00,00,00,00,84,03,00,00,2c,01,00,00,00,00,00,00,84,03,00,\
   00,00,01,64,64,64,64,00,00
+
+
+
+
+; Disable Nvme throttling
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Classpnp]
+"NVMeDisablePerfThrottling"=dword:00000001
+
+
+
+
 
 
 
@@ -492,4 +537,3 @@
 "LogPages"=dword:00000000
 "ForceLogsInMiniDump"=dword:00000000
 "DisableWDIWatchdogForceBugcheck"=dword:00000001
-
