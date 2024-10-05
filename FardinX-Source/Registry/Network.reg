@@ -4272,6 +4272,12 @@ TCP Connection Rate Limiting
 "SMB1"=dword:00000000
 "EnableSecuritySignature"=dword:00000000
 "RequireSecuritySignature"=dword:00000000
+"autodisconnect"=dword:ffffffff
+"Size"=dword:00000003
+"EnableOplocks"=dword:00000000
+"SharingViolationDelay"=dword:00000000
+"SharingViolationRetries"=dword:00000000
+
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Internet Connection Wizard]
 "ExitOnMSICW"=dword:00000001
@@ -4363,4 +4369,3 @@ TCP Connection Rate Limiting
 "UseDelayedAcceptance"=dword:00000000
 "MaxSockAddrLength"=dword:00000010
 "MinSockAddrLength"=dword:00000010
-
