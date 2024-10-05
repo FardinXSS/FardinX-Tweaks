@@ -137,7 +137,7 @@ Windows Registry Editor Version 5.00
 "QosManagesIdleProcessors"=dword:00000000
 "RtlCapabilityCheckLatency"=dword:00000001
 "SleepReliabilityDetailedDiagnostics"=dword:00000000
-
+"LowLatencyScalingPercentage"=dword:00000064
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power]
 "D3PCLatency"=dword:00000000
