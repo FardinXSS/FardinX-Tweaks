@@ -7253,6 +7253,7 @@
 "EnableLowVaAccess"=dword:00000001
 "EnforceWriteProtection"=dword:00000000
 "MoveImages"=dword:00000000
+"TrimProcessWorkingSet"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM]
 "MinimumWorkingSet"=hex(b):00,00,00,00,00,10,00,00
@@ -7491,5 +7492,4 @@
 "DesktopHeapLogging"=dword:00000000
 "DwmInputUsesIoCompletionPort"=dword:00000000
 "EnableDwmInputProcessing"=dword:00000000
-
 
