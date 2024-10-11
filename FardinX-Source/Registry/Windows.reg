@@ -1,5 +1,9 @@
 Windows Registry Editor Version 5.00
 
+; System Policy Tweaks
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"DelayedDesktopSwitchTimeout"=dword:00000000
+
 ; Zero Startup Delay
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize]
 "Startupdelayinmsec"=dword:00000000
