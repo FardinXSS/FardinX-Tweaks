@@ -282,7 +282,28 @@ Nvidia
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\NVTweak]
 "RmGpsPsEnablePerCpuCoreDpc"=dword:00000001
 
-
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000]
+"vrrCursorMarginUs"=dword:00000001
+"vrrDeflickerMarginUs"=dword:00000001
+"vrrDeflickerMaxUs"=dword:00000001
+"TransitionLatency"=dword:00000001
+"PreferSystemMemoryContiguous"=dword:00000001
+"D3PCLatency"=dword:00000001
+"F1TransitionLatency"=dword:00000001
+"LOWLATENCY"=dword:00000001
+"Node3DLowLatency"=dword:00000001
+"PciLatencyTimerControl"=dword:00000020
+"RMDeepL1EntryLatencyUsec"=dword:00000001
+"RmGspcMaxFtuS"=dword:00000001
+"RmGspcMinFtuS"=dword:00000001
+"RmGspcPerioduS"=dword:00000001
+"RMLpwrEiIdleThresholdUs"=dword:00000001
+"RMLpwrGrIdleThresholdUs"=dword:00000001
+"RMLpwrGrRgIdleThresholdUs"=dword:00000001
+"RMLpwrMsIdleThresholdUs"=dword:00000001
+"VRDirectFlipDPCDelayUs"=dword:00000001
+"VRDirectFlipTimingMarginUs"=dword:00000001
+"VRDirectJITFlipMsHybridFlipDelayUs"=dword:00000001
 
 ;NVIDIA Control Panel Telemetry
 
