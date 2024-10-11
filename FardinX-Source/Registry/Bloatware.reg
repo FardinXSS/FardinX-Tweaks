@@ -1,3 +1,5 @@
+Windows Registry Editor Version 5.00
+
 ; Troubleshoot
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Troubleshooting\AllowRecommendations]
