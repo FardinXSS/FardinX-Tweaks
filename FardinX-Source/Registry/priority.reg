@@ -7522,6 +7522,7 @@ Windows Registry Editor Version 5.00
 
 
 
+
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\xinputhid]
 "IoLatencyCap"=dword:00000000
 
@@ -11320,7 +11321,8 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\DriverDatabase\DriverPackages\mshdc.inf_amd64_ded026dc21bf9462\Configurations\msahci_Inst\Services\storahci\Parameters]
 "IoLatencyCap"=dword:00000000
 
-; DmaRemapping
+
+; DmaRemappingCompatible 
 
 
 
