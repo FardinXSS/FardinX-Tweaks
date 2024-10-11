@@ -2,6 +2,33 @@ Windows Registry Editor Version 5.00
 
 : Power Saving
 
+; Processor Performance Settings
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Processor]
+"MaxPerformance1"=dword:00000064
+"MaxPerformance"=dword:00000064
+"PerfEnergyPreference"=dword:00000000
+
+
+; Core Configuration
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Processor]
+"CPMinCores"=dword:00000000
+"CPMaxCores"=dword:00000000
+"CPMinCores1"=dword:00000000
+"CPMaxCores1"=dword:00000000
+
+
+; CPU Latency and Distribution
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\Policy\Settings\Processor]
+"CpLatencyHintUnpark1"=dword:00000064
+"CPDistribution"=dword:00000000
+"CpLatencyHintUnpark"=dword:00000064
+"CPDistribution1"=dword:00000000
+"CPHEADROOM"=dword:00000000
+"CPCONCURRENCY"=dword:00000000
+
 ; Power Profile Tweak
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\Profile\Events\{54533251-82be-4824-96c1-47b60b740d00}\{0DA965DC-8FCF-4c0b-8EFE-8DD5E7BC959A}\{7E01ADEF-81E6-4e1b-8075-56F373584694}\{F6CC25DF-6E8F-4cf8-A242-B1343F565884}\{BDB3AF7A-F67E-4d1e-945D-E2790352BE0A}]
