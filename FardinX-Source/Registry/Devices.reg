@@ -6,6 +6,11 @@ Windows Registry Editor Version 5.00
 "VulnerableDriverBlocklistEnable"=dword:00000000
 
 
+; Disable Audio Ducking
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Multimedia\Audio]
+"UserDuckingPreference"=dword:00000003
+
 
 ; Storage Devices fix
 
