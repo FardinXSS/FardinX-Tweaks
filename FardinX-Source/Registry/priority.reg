@@ -11280,3 +11280,20 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\ROOT\SYSTEM\0000]
 "IoLatencyCap"=dword:00000000
 
+[HKEY_LOCAL_MACHINE\SYSTEM\DriverDatabase\DriverPackages\iastorav.inf_amd64_87f761c07c99d5e7\Configurations\iaStorAVC_inst\Services\iaStorAVC\Parameters]
+"IoLatencyCap"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\storahci\Parameters]
+"IoLatencyCap"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\iaStorAVC\Parameters]
+"IoLatencyCap"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\storahci\Parameters]
+"IoLatencyCap"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\iaStorAVC\Parameters]
+"IoLatencyCap"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\DriverDatabase\DriverPackages\mshdc.inf_amd64_ded026dc21bf9462\Configurations\msahci_Inst\Services\storahci\Parameters]
+"IoLatencyCap"=dword:00000000
