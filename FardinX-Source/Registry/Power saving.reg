@@ -434,6 +434,9 @@ Windows Registry Editor Version 5.00
 "HibernateEnabled"=dword:00000000
 "HibernateEnabledDefault"=dword:00000000
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings]
+"ShowHibernateOption"=dword:00000000
+"ShowSleepOption"=dword:00000000
 
 
 ; Disable deep IO coalescing
