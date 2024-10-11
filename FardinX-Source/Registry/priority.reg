@@ -1,6 +1,29 @@
 Windows Registry Editor Version 5.00
 
 
+
+; Game Priority Tweak
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Games]
+"EnableXBGM"=dword:00000000
+"GameFluidity"=dword:00000001
+"FpsStatusGames"=dword:00000016
+"FpsAll"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"Affinity"=dword:00000000
+
+
+;  VxD Tweak
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VxD\BIOS]
+"CPUPriority"=dword:00000001
+"FastDRAM"=dword:00000001
+"PCIConcur"=dword:00000001
+"AGPConcur"=dword:00000001
+
+
+
 ; DWM tweaks
 
 
