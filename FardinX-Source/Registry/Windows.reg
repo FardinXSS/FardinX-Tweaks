@@ -665,6 +665,10 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\TooltipAnimation]
 "DefaultApplied"=dword:00000001
 
+
+
+
+
 ; maintains icon cache limits
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
@@ -814,8 +818,54 @@ dis
 "ConnectedSearchPrivacy"=dword:00000003
 "ConnectedSearchSafeSearch"=dword:00000003
 
+; File Explorer Tweaks
 
-
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_SearchFiles"=dword:00000002
+"ServerAdminUI"=dword:00000000
+"Hidden"=dword:00000002
+"ShowCompColor"=dword:00000001
+"HideFileExt"=dword:00000000
+"DontPrettyPath"=dword:00000001
+"ShowInfoTip"=dword:00000001
+"HideIcons"=dword:00000000
+"MapNetDrvBtn"=dword:00000000
+"WebView"=dword:00000000
+"Filter"=dword:00000000
+"ShowSuperHidden"=dword:00000001
+"SeparateProcess"=dword:00000000
+"AutoCheckSelect"=dword:00000000
+"IconsOnly"=dword:00000000
+"ShowTypeOverlay"=dword:00000001
+"ShowStatusBar"=dword:00000001
+"StoreAppsOnTaskbar"=dword:00000001
+"ListviewAlphaSelect"=dword:00000000
+"ListviewShadow"=dword:00000000
+"TaskbarAnimations"=dword:00000000
+"OnboardUnpinCortana"=dword:00000001
+"ShowCortanaButton"=dword:00000000
+"ReindexedProfile"=dword:00000001
+"StartMenuInit"=dword:0000000d
+"TaskbarStateLastRun"=hex:bc,47,9c,64,00,00,00,00
+"ShowSecondsInSystemClock"=dword:00000001
+"TaskbarSi"=dword:00000001
+"TaskbarAcrylicOpacity"=dword:00000000
+"ShowSyncProviderNotifications"=dword:00000000
+"ExtendedUIHoverTime"=dword:00000001
+"ListviewWatermark"=dword:00000000
+"StartShownOnUpgrade"=dword:00000001
+"TaskbarDa"=dword:00000000
+"LaunchTo"=dword:00000001
+"TaskbarMn"=dword:00000000
+"Start_NotifyNewApps"=dword:00000000
+"Start_ShowRun"=dword:00000001
+"NavPaneShowAllFolders"=dword:00000000
+"NoNetCrawling"=dword:00000001
+"DITest"=dword:00000000
+"MMTaskbarGlomLevel"=dword:00000000
+"DisallowShaking"=dword:00000001
+"ShowTaskViewButton"=dword:00000000
+"MMTaskbarMode"=dword:00000002
 
 
 ; Disable GameDVR
